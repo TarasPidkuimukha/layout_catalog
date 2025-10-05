@@ -1,15 +1,16 @@
-@import './blocks/card';
-@import './blocks/header';
-@import './blocks/main.container';
-@import './blocks/nav';
-@import './blocks/variables';
-
 $color: #060b35;
 $line-height: 14px;
 
 :root {
   --blue: #00acdc;
 }
+
+@import './card';
+@import './header';
+@import './main.container';
+@import './nav';
+@import './stars';
+@import './variables';
 
 html {
   font-family: Roboto, Arial, serif;
