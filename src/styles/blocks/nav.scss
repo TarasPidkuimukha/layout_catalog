@@ -14,14 +14,15 @@
     position: relative;
     text-transform: uppercase;
     text-decoration: none;
-    color: #060b35;
+    color: $color;
     font-family: inherit;
     font-weight: 500;
     font-size: 12px;
+    transition: color 300ms;
   }
 
   &__link:hover {
-    color: var(--blue);
+    color:$color-primary;
   }
 
   &__link.is-active::after {
@@ -33,7 +34,7 @@
     height: 4px;
     width: 100%;
     border-radius: 4px;
-    background-color: var(--blue);
+    background-color:$color-primary;
   }
 
   &__item:not(:first-child) {
@@ -42,5 +43,5 @@
 }
 
 .is-active {
-  color: var(--blue);
+  color:$color-primary;
 }

@@ -1,16 +1,12 @@
-$color: #060b35;
-$line-height: 14px;
 
-:root {
-  --blue: #00acdc;
-}
 
+@import './variables';
 @import './card';
 @import './header';
 @import './main.container';
 @import './nav';
 @import './stars';
-@import './variables';
+
 
 html {
   font-family: Roboto, Arial, serif;
@@ -24,3 +20,5 @@ body {
   line-height: 16px;
   color: #000;
 }
+
+
