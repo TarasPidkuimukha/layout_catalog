@@ -2,20 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
-  padding-inline: 50px;
-  box-shadow: 0 2px 4px 0 #0000000d;
-}
+  background-color: $background-color;
+  padding-inline: $header-padding-inline;
+  box-shadow: $header-box-shadow;
 
-.logo {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
+  &__logo {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    width: $logo-width;
+    height: $logo-height;
 
-  &__img {
-    display: block;
-    max-width: 100%;
+    &-img {
+      display: block;
+      max-width: 100%;
+    }
   }
+
 }
+
+

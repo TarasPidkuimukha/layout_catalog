@@ -4,8 +4,8 @@
   box-sizing: border-box;
   display: grid;
   margin-bottom: 72px;
-  gap: 48px 46px;
-  padding: 50px 40px;
+  gap:$gap-vertical $gap-horizontal;
+  padding:$catalog-padding-vertical $catalog-padding-horizontal;
   grid-template-columns: repeat(var(--column-count), 200px);
   justify-content: center;
 }
